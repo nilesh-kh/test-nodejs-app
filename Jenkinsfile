@@ -1,4 +1,4 @@
-pipeline { 
+ppeline { 
   
    agent any
 
@@ -12,7 +12,7 @@ pipeline {
      
      stage('Test') { 
         steps { 
-           sh 'echo "testing application..."'
+           sh 'echo "testing nodejs application..."'
         }
       }
 
